@@ -1,0 +1,26 @@
+{
+        "name": "ringo-scheduler",
+        "version": "0.1.0",
+        "description": "A simple scheduler for ringojs",
+        "keywords": ["rhino", "ringo", "scheduler"],
+        "homepage": "https://github.com/kmfdm1/ringojs-scheduler",
+        "maintainers": [{
+                "name": "Manfred Andres",
+                "web": "https://github.com/kmfdm1/",
+                "email": "kmfdm1@gmx.net"
+        }],
+        "dependencies": {},
+        "bugs": "https://github.com/kmfdm1/ringojs-scheduler/issues",
+        "licenses": [{
+                "type": "Apache License Version 2.0",
+                "url": "http://www.apache.org/licenses/"
+        }],
+        "repositories": [{
+                "type": "git",
+                "url": "https://github.com/kmfdm1/ringojs-scheduler.git"
+        }],
+        "engines": {
+                "ringojs": ">= 0.9"
+        },
+        "main": "./lib/scheduler/main.js"
+}
