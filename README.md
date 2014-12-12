@@ -37,4 +37,4 @@ The asterisk matches every number, a number matches the exact number and the */ 
 with the number after the slash. It matches if it's remainder is zero.
 
 For example the following will trigger a function every first of the month at the beginning of every even hour.
-    *,*,1,*/2,0
+    "*,*,1,*/2,0"
